@@ -52,7 +52,9 @@ from Plugins.SatLodge.ImageBackup.main import *
 self.session.open(ImageBackup)
 </code>
         </item>     
--->       
+-->
+
+ <!--      
 	    <item weight="15" level="0" text="EPG Cache Path" entryID="SatLodge">  
     <code>
 from Plugins.SatLodge.EPGCacheSelector.plugin import * 
@@ -66,7 +68,8 @@ self.session.open(EPGCacheSetupScreen)
 from Plugins.SatLodge.PiconPathSet.plugin import * 
 self.session.open(SetPiconPath)
 </code>
-        </item>  
+        </item> 
+--> 		
 <!--                
 	    <item weight="20" level="0" text="Ipkg Installer" entryID="SatLodge">  
     <code>
