@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-19 10:48+0430\n"
+"POT-Creation-Date: 2021-04-29 14:07+0200\n"
 "PO-Revision-Date: 2021-02-01 18:13+0200\n"
 "Last-Translator: Dimitrij <Dima-73@inbox.lv>\n"
 "Language-Team: openPLi Dimitrij\n"
@@ -75,6 +75,9 @@ msgstr " (Радио)"
 
 msgid " (TV)"
 msgstr " (ТВ)"
+
+msgid " (auto detection)"
+msgstr " (авто детекция)"
 
 msgid " (disabled)"
 msgstr " (отключен)"
@@ -386,10 +389,6 @@ msgstr "%s%d мин"
 #, python-format
 msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
-
-#, python-format
-msgid "%s:%s"
-msgstr "%s:%s"
 
 msgid "(VU+ type)"
 msgstr "(VU+ тип)"
@@ -4734,7 +4733,7 @@ msgid "LAN connection"
 msgstr "Подключение LAN"
 
 msgid "LNB"
-msgstr "Номер LNB"
+msgstr "LNB"
 
 msgid "Language"
 msgstr "Выбор языка"
@@ -4782,7 +4781,7 @@ msgid "Lebanon"
 msgstr "Lebanon"
 
 msgid "Left"
-msgstr "Лево"
+msgstr "Левый"
 
 msgid "Left from servicename"
 msgstr "слева от названия сервиса"
@@ -7002,7 +7001,7 @@ msgid "Rewrap subtitles"
 msgstr "Перепаковывать субтитры"
 
 msgid "Right"
-msgstr "Право"
+msgstr "Правый"
 
 msgid "Right from servicename"
 msgstr "справа от названия сервиса"
@@ -7032,7 +7031,7 @@ msgid "Rotor: "
 msgstr "Мотор: "
 
 msgid "Round start time on"
-msgstr "Вокруг времени начала на"
+msgstr "Около времени начала на"
 
 msgid "Russian"
 msgstr "Русский"
@@ -8147,7 +8146,7 @@ msgid "Shutdown when in Standby"
 msgstr "Выключение из режима ожидания"
 
 msgid "Side by side"
-msgstr "Лево и право"
+msgstr "Рядом"
 
 msgid "Sierra Leone"
 msgstr "Sierra Leone"
@@ -9124,15 +9123,6 @@ msgid "This field allows you to search an additional symbol rate up to %s."
 msgstr "Это позволяет вам искать дополнительную скорость передачи до %s."
 
 msgid ""
-"This image is intended for developers and testers.\n"
-"No support will be provided!\n"
-"Do you understand this?"
-msgstr ""
-"Этот имидж предназначен для разработчиков и тестировщиков.\n"
-"Никакой поддержки не будет!\n"
-"Вам это понятно?"
-
-msgid ""
 "This info is for developers only.\n"
 "For normal users it is not relevant.\n"
 "Please don't panic if you see values displayed looking suspicious!"
@@ -9832,6 +9822,7 @@ msgstr "Обновление каталога ПО"
 msgid "Upper case"
 msgstr "Верхний регистр"
 
+#, python-format
 msgid "Uptime: %s\n"
 msgstr "Время работы: %s\n"
 
@@ -10962,6 +10953,9 @@ msgstr "через "
 msgid "all"
 msgstr "все"
 
+msgid "all tuners"
+msgstr "все тюнера"
+
 msgid "alphabetic"
 msgstr "сортировать по алфавиту"
 
@@ -11348,7 +11342,7 @@ msgid "leave movie player..."
 msgstr "выйти из видеоплеера..."
 
 msgid "left"
-msgstr "слево"
+msgstr "левый"
 
 msgid "left, wrapped"
 msgstr "слево, завернутый"
@@ -11506,6 +11500,9 @@ msgstr "не поддерживается"
 msgid "not tested"
 msgstr "без теста"
 
+msgid "not valid frontend"
+msgstr "недействительный интерфейс"
+
 msgid "not_tested"
 msgstr "без теста"
 
@@ -11615,7 +11612,7 @@ msgid "rgb"
 msgstr "rgb"
 
 msgid "right"
-msgstr "право"
+msgstr "правый"
 
 msgid "right, wrapped"
 msgstr "справо, завернутый"
@@ -11628,6 +11625,9 @@ msgstr "романс"
 
 msgid "rotor"
 msgstr "мотор"
+
+msgid "rotor is not used"
+msgstr "мотор не используется"
 
 msgid "running"
 msgstr "запущено"
@@ -11945,3 +11945,9 @@ msgstr "переключено"
 
 msgid "®"
 msgstr "®"
+
+msgid "Warning: the second input of this dual tuner may not support SCR LNBs. "
+msgstr "Предупреждение: второй вход этого двойного тюнера может не поддерживать SCR LNB. "
+
+msgid " Warning: the selected tuner should not use SCR Unicable type for LNBs because each tuner need a own SCR number."
+msgstr " Предупреждение: выбранный тюнер не должен использовать тип SCR Unicable для LNB, потому что каждому тюнеру необходим собственный номер SCR."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-19 10:48+0430\n"
+"POT-Creation-Date: 2021-04-29 14:07+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: ims <ims21@users.sourceforge.net>\n"
 "Language-Team: PLi <ims@openpli.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.4.3\n"
 
 #
 msgid ""
@@ -79,6 +79,10 @@ msgstr " (Rádio)"
 
 msgid " (TV)"
 msgstr " (TV)"
+
+#
+msgid " (auto detection)"
+msgstr "(automatická detekce)"
 
 #
 msgid " (disabled)"
@@ -408,10 +412,6 @@ msgstr "%s%d min"
 #, python-format
 msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
-
-#, python-format
-msgid "%s:%s"
-msgstr "%s:%s"
 
 msgid "(VU+ type)"
 msgstr "(VU+ typ)"
@@ -10198,7 +10198,7 @@ msgstr ""
 "Pro případné korekce můžete kontaktovat autora\n"
 "na výše uvedené adrese.\n"
 "\n"
-"®21.4.2021"
+"®2.5.2021"
 
 #
 msgid "TS file is too large for ISO9660 level 1!"
@@ -10492,15 +10492,6 @@ msgstr "DVD RW médium je již naformátováno - nové formátování smaže ve�
 #, python-format
 msgid "This field allows you to search an additional symbol rate up to %s."
 msgstr "Umožňuje vyhledat další symbol rate až do %s."
-
-msgid ""
-"This image is intended for developers and testers.\n"
-"No support will be provided!\n"
-"Do you understand this?"
-msgstr ""
-"Tento obraz je určen pro vývojáře a testery.\n"
-"Je bez jakékoliv podpory!\n"
-"Rozumíte tomu?"
 
 msgid ""
 "This info is for developers only.\n"
@@ -12549,6 +12540,9 @@ msgstr "Po "
 msgid "all"
 msgstr "Všechny"
 
+msgid "all tuners"
+msgstr "všechny tunery"
+
 #
 msgid "alphabetic"
 msgstr "Podle abecedy"
@@ -13183,6 +13177,10 @@ msgstr "nepodporováno"
 msgid "not tested"
 msgstr "netestováno"
 
+#
+msgid "not valid frontend"
+msgstr "neplatný frontend"
+
 msgid "not_tested"
 msgstr "netestováno"
 
@@ -13328,6 +13326,9 @@ msgstr "romance"
 
 msgid "rotor"
 msgstr "rotor"
+
+msgid "rotor is not used"
+msgstr "rotor není používán"
 
 msgid "running"
 msgstr "probíhá"
